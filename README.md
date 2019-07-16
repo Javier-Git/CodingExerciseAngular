@@ -35,7 +35,7 @@ Within the root folder of the project run the following command to download all 
 
 To execute the project you need to raise the JSON-Server service, you can execute the following custom command (package.json):
 
-`npm run test-social`
+`npm run test-json`
 
 or the long command: 
 
