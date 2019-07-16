@@ -1,0 +1,16 @@
+.title{
+  background-color: cornflowerblue;
+  color: #f1f1f1;
+  margin: 10px auto;
+  padding: 5px;
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.col-9{
+  height: 460px;
+}
+.col-3 {
+  height: 460px;
+}

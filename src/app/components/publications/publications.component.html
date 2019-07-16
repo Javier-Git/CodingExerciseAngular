@@ -1,0 +1,31 @@
+<div class="title">{{title | uppercase}} ({{total}})</div>
+<div class="publications">
+
+  <div class="container pub" *ngFor="let publi of publications">
+    <div class="row">
+      <div class="col-4" >
+        <h5 class="title-comment">{{publi.title}}</h5>
+      </div>
+      <div class="col-6 desc">
+        <p>{{publi.description}}</p>
+      </div>
+      <div class="col-2">
+        <small>{{publi.date}}</small>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <small>By: {{publi.name}} {{publi.last_name}}</small><br>
+        <small>Email: {{publi.email}}</small>
+      </div>
+    </div>
+  </div>
+  <div class="cpages" *ngIf="pages != 0">
+    <a class="after" (click)="updatePage(1)"><<</a>
+    <a class="pages" *ngFor="let pag of itemPages; index as i" (click)="updatePage($event.target.text)">{{i+1}}</a>
+    <a class="before" (click)="updatePage(-1)">>></a>
+  </div>
+</div>
+
+<button class="btn btn-success all" (click)="showAll()">Show all publications</button>
+<button class="btn btn-danger order" (click)="orderByDate()">Order {{order}}</button>

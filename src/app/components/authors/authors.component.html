@@ -1,0 +1,4 @@
+<div class="sidebar">
+  <span class="title">{{title | uppercase}}</span>
+  <a *ngFor="let auth of authors" (click)="applyFilter(auth)">{{auth.name}} {{auth.lastName}}</a>
+</div>

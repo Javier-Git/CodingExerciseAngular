@@ -1,0 +1,64 @@
+.publications {
+  margin: 10px 0px;
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  padding: 5px;
+  height: 87%;
+  overflow-y: scroll;
+}
+
+.after, .before {
+  background-color: darkturquoise;
+  margin: 3px;
+}
+
+.pages:hover{
+  background-color: orange;
+}
+.title {
+  margin-top: 10px;
+  background-color: cornflowerblue;
+  margin-bottom: 10px;
+  color: #f1f1f1;
+  padding: 5px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.cpages{
+  text-align: center;
+}
+.pages{
+  margin: 5px;
+  padding: 8px;
+  background-color: salmon;
+}
+
+.all{
+  float: right;
+}
+.order {
+  float: right;
+  margin: 0 10px;
+}
+
+.desc {
+  padding: 3px;
+}
+.pub {
+  width: 95%;
+  height: auto;
+  color: black;
+  padding: 10px;
+  background-color: lightblue;
+  margin: 10px;
+  border-radius: 6px;
+  border: darkblue solid 2px;
+}
+
+.title-comment{
+  width: 80%;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: darkorange;
+}
