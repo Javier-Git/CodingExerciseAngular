@@ -2,13 +2,13 @@
 
 This project was created for Test [Stefanini and Thompson Reuters]
 
-#Get project
+# Get project
 
 To clone the project just execute the following command in the route you choose
 
 `git clone https://github.com/Javier-Git/CodingExerciseAngular.git`
 
-#Previous requirements
+# Previous requirements
 
 This project require Node.js, for install you click in the next url and follow the instructions:
 
