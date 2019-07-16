@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "test-social": "json-server --watch ./src/json-server/author/author.json"
+    "test-json": "json-server --watch ./src/json-server/author/author.json"
   },
   "private": true,
   "dependencies": {

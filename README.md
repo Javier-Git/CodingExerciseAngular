@@ -2,26 +2,49 @@
 
 This project was created for Test [Stefanini and Thompson Reuters]
 
+#Get project
+
+To clone the project just execute the following command in the route you choose
+
+`git clone https://github.com/Javier-Git/CodingExerciseAngular.git`
+
+#Previous requirements
+
+This project require Node.js, for install you click in the next url and follow the instructions:
+
+`https://nodejs.org/es/`
+
+It is also necessary to have installed a version of angular 2+ you can install it using the following command
+
+`npm install -g @angular/cli`
+
+This project uses JSON-Server as an API to simulate the exchange of data, to install it, just execute the following command:
+
+`npm install -g json-server`
+
+Json-server needs a .json file as a data source, this file is in the following path:
+
+`./src/json-server/author/author.json`
+
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Within the root folder of the project run the following command to download all necessary dependencies:
 
-## Code scaffolding
+`npm install`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To execute the project you need to raise the JSON-Server service, you can execute the following custom command (package.json):
 
-## Build
+`npm run test-social`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+or the long command: 
 
-## Running unit tests
+`json-server --watch ./src/json-server/author/author.json`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Then we start our angular application with the following command:
 
-## Running end-to-end tests
+`npm start`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+And our application will be ready to be used in the next url:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+`http://localhost:4200/`
